@@ -1,0 +1,104 @@
+# ======================
+# Flutter / Dart ignores
+# ======================
+
+# Flutter build directories
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+.pub-cache/
+.pub/
+
+# Platform-specific build outputs
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/.symlinks/
+macos/Flutter/ephemeral/
+windows/runner/Release/
+windows/runner/Debug/
+windows/runner/intermediates/
+linux/build/
+android/app/build/
+
+# Generated files
+*.lock
+*.iml
+*.ipr
+*.iws
+*.log
+*.tmp
+
+# IDE settings
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# ======================
+# Python backend ignores
+# ======================
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Server logs and configs
+*.log
+*.pid
+*.json
+*.cfg
+*.ini
+
+# ======================
+# Binary & archives
+# ======================
+
+# Executables and zips
+*.exe
+*.dll
+*.so
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Other heavy outputs
+*.db
+*.sqlite3
+
+# ======================
+# OS / Editor junk
+# ======================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ======================
+# Custom exclusions
+# ======================
+
+# Local testing and cache
+temp/
+cache/
